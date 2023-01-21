@@ -1,23 +1,7 @@
 use std::fs;
 
 fn main() {
-
-    // let string = "1000
-    // 2000
-    // 3000
-    
-    // 4000
-    
-    // 5000
-    // 6000
-    
-    // 7000
-    // 8000
-    // 9000
-    
-    // 10000";
-
-    let contents = fs::read_to_string("./artifacts/Day01/input.txt")
+    let contents = fs::read_to_string("../artifacts/Day01/input.txt")
         .expect("Should have been able to read the file");
 
 
